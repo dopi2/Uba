@@ -1,0 +1,118 @@
+.advisory-limits-container {
+    display: flex;
+    flex-direction: row;
+    background-color: #f4f4f4 !important;
+    min-height: 100vh;
+  }
+  
+  .sidebar {
+    width: 300px;
+    background-color: #FF2C2C; /* Dark background */
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .sidebar-logo {
+    width: 100%;
+    max-width: 200px;
+    margin-bottom: 20px;
+  }
+  
+  .sidebar nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar nav ul li {
+    margin: 15px 0;
+  }
+  
+  .sidebar nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .sidebar nav ul li button {
+    margin-top: 20px;
+    color: white;
+    background-color: #ff4b5c;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+  }
+  
+  .sidebar nav ul li button:hover {
+    background-color: #ff1f2a;
+  }
+  
+  .main-content {
+    margin-left: 40px;
+    padding: 20px;
+    width: calc(100% - 270px);
+    margin-top:3%
+  }
+  
+  .advisory-limits-table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .half{
+    display:flex;
+    justify-content:space-evenly;
+  }
+  .advisory-limits-table th, .advisory-limits-table td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .advisory-limits-table th {
+    background-color: #FF2C2C;
+    color:#fff;
+  }
+  
+  .upload-container, .download-container {
+    margin-top: 20px;
+  }
+
+  .half{
+    display:flex !important;
+    justify-content:space-evenly !important;
+  }
+  
+  .file-input {
+    display: none;
+  }
+  
+  .upload-btn, .download-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #FF2C2C;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .upload-btn:hover, .download-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .upload-btn {
+    display: inline-block;
+  }
+  
+  .upload-container p {
+    margin-top: 10px;
+    font-style: italic;
+    color: green;
+  }
+  

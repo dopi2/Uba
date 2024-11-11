@@ -1,0 +1,86 @@
+.dashboard-container {
+    display: flex;
+    min-height: 100vh;
+    background-color: #f4f4f4 !important;
+  }
+  
+  .sidebar {
+    width: 250px;
+    background-color: #FF2C2C; /* Dark background */
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .sidebar-logo img {
+    width: 250px; /* Adjust logo size as needed */
+  height: auto;
+  margin-bottom: 20px; /* Space between logo and navigation items */
+  text-align: center;
+  }
+  
+  .sidebar nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar nav ul li {
+    margin: 30px 0;
+  }
+  .sidebar nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    display: block;
+    transition: background-color 0.3s ease;
+  }
+  
+  .sidebar nav ul li a:hover {
+    background-color: #2a3d74; /* Darker background when hovering */
+    border-radius: 5px;
+  }
+  
+  
+  
+  
+  .main-content {
+    flex-grow: 1;
+    padding: 40px;
+  }
+  
+  .dashboard-heading {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+  }
+  
+  .file-upload-container,
+  .file-download-container {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .file-input {
+    margin-top: 10px;
+    padding: 8px;
+    font-size: 1rem;
+  }
+  
+  .download-button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color: #FF2C2C;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .download-button:hover {
+    background-color: #45a049;
+  }
+  

@@ -1,0 +1,150 @@
+/* Sidebar styles */
+
+  
+  .sidebar-links {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  .sidebar-link {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    width: 100%;
+    display: block;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .sidebar-link:hover {
+    background-color: #4A5568;
+  }
+  
+  .logout-container {
+    margin-top: auto;
+    margin-bottom: 10px;
+  }
+  
+  .logout-button {
+    padding: 10px 20px;
+    background-color: #e53e3e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .logout-button:hover {
+    background-color: #c53030;
+  }
+  
+  /* Content area */
+  .master-bid-list-content {
+    flex-grow: 1;
+    margin-left: 250px;  /* Same width as the sidebar */
+    padding: 20px;
+    background-color: #FF2C2C;
+    overflow-y: auto;
+  }
+  
+  .master-bid-list-heading {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .bid-list-content {
+    margin-bottom: 40px;
+    
+  }
+  
+  .master-bid-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    border-radius: 8px;
+ 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .master-bid-table th, .master-bid-table td {
+    padding: 12px 15px;
+    text-align: left;
+  }
+  
+  .master-bid-table th {
+    background-color: #FF2C2C;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .master-bid-table td {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .master-bid-table tr:nth-child(even) td {
+    background-color: #f9fafb;
+  }
+  
+  .master-bid-table tr:hover td {
+    background-color: #f1f5f9;
+  }
+  
+  .table-header {
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .table-row {
+    transition: background-color 0.3s;
+  }
+  
+  .status {
+    padding: 4px 8px;
+    border-radius: 5px;
+    color: white;
+  }
+  
+  .status.accepted {
+    background-color: #4CAF50;
+  }
+  
+  .status.pending {
+    background-color: #ff9800;
+  }
+  
+  .status.rejected {
+    background-color: #f44336;
+  }
+  
+  .file-upload-container {
+    margin-bottom: 20px;
+  }
+  
+  .file-input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  .file-download-container {
+    margin-top: 20px;
+  }
+  
+  .download-button {
+    padding: 10px 20px;
+    background-color: #FF2C2C;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .download-button:hover {
+    background-color: #45a049;
+  }
+  

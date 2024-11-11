@@ -1,0 +1,194 @@
+/* Login.css */
+
+/* Body Styles */
+body {
+    background-color: #FF2C2C; /* Light gray background */
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Container Styling *//* Login.css */
+
+/* Body Styles */
+body {
+    background-color: #FF2C2C; /* Light gray background */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Container Styling */
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #e6e6e6; /* Soft background color */
+    flex-direction: column; /* Align content vertically */
+    position: relative;
+    padding-top: 50px; /* Adds padding to make space for the logo */
+  }
+  
+  /* Logo Styling */
+  .logo-container {
+    position: absolute;
+    top: 20px; /* Position the logo 20px from the top */
+    left: 90%;
+    transform: translateX(-50%); /* Center the logo horizontally */
+    margin-bottom: 30px; /* Space between logo and form */
+  }
+  
+  .logo {
+    width: 200px; /* Adjust size of the logo */
+    height: auto;
+  }
+  
+  /* Form Container */
+  .login-form-container {
+    width: 100%;
+    max-width: 450px;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    position: relative; /* Ensures it's positioned under the logo */
+  }
+  
+  /* Heading Styling */
+  .login-form-container h2 {
+    text-align: center;
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+  
+  /* Input Styling */
+  .login-form-container input {
+    width: 100%;
+    padding: 14px 20px;
+    margin-bottom: 18px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  /* Focus Effect for Inputs */
+  .login-form-container input:focus {
+    outline: none;
+    border-color: #ff6f61; /* Focus color */
+    box-shadow: 0 0 10px rgba(255, 111, 97, 0.5);
+  }
+  
+  /* Button Styling */
+  .login-form-container button {
+    width: 100%;
+    padding: 14px 20px;
+    background-color: #ff6f61;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Button Hover Effect */
+  .login-form-container button:hover {
+    background-color: #ff3b2d;
+  }
+  
+  /* Link to Signup Page */
+  .login-form-container p {
+    text-align: center;
+    font-size: 1rem;
+  }
+  
+  .login-form-container a {
+    color: #ff6f61;
+    text-decoration: none;
+  }
+  
+  .login-form-container a:hover {
+    text-decoration: underline;
+  }
+  
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #FF2C2C; /* Soft background color */
+    padding: 20px;
+  }
+  
+  /* Form Container */
+  .login-form-container {
+    width: 100%;
+    max-width: 450px;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Heading Styling */
+  .login-form-container h2 {
+    text-align: center;
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+  
+  /* Input Styling */
+  .login-form-container input {
+    width: 100%;
+    padding: 14px 20px;
+    margin-bottom: 18px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  /* Focus Effect for Inputs */
+  .login-form-container input:focus {
+    outline: none;
+    border-color: #ff6f61; /* Focus color */
+    box-shadow: 0 0 10px rgba(255, 111, 97, 0.5);
+  }
+  
+  /* Button Styling */
+  .login-form-container button {
+    width: 100%;
+    padding: 14px 20px;
+    background-color: #ff6f61;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Button Hover Effect */
+  .login-form-container button:hover {
+    background-color: #ff3b2d;
+  }
+  
+  /* Link to Signup Page */
+  .login-form-container p {
+    text-align: center;
+    font-size: 1rem;
+  }
+  
+  .login-form-container a {
+    color: #ff6f61;
+    text-decoration: none;
+  }
+  
+  .login-form-container a:hover {
+    text-decoration: underline;
+  }
+  
